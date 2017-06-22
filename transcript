@@ -1,0 +1,38 @@
+Welcome to the drawing tool.
+Use command exit to end program.
+Use command help for more informaiton.
+> help
+Commands: | pen -p | select -p | delete -p | check -p | up | down | move -p | moveto -p1 -p1 | turn -p |turnto -p | colour -p
+> check pens
+
+Pens Being used:
+
+> pns
+Unrecognised command: pns
+> pens
+Unrecognised command: pens
+> pen sam
+sam has been selected
+> moveto 2 2
+> colour red
+> moveto 20 299
+> pen pen2
+pen2 has been selected
+> 
+> colour green
+> moveto 300 300
+> delete pen2
+Error: Cannot delete pen while pen is selected
+> select sam
+sam has been selected
+> select nopen
+Error: that pen does not exist
+> delete pen2
+pen2 has been removed
+> turn 90
+> move 40
+> colour blue
+> turn 180
+> move 100
+> up
+> moveto 40 40
